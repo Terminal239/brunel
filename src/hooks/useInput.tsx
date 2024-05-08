@@ -31,7 +31,7 @@ const useInput = ({ name, type, placeholder, className, errorMessage }: Props): 
       <input className={`${className}`} type={type} name={name} value={data} placeholder={placeholder} onChange={(event: React.ChangeEvent<HTMLInputElement>) => setData(event.target.value)} />
       {isError && (
         <div className="mt-3 flex items-center gap-2 text-base text-error">
-          <img className="size-[20px]" src={"/error.svg"} alt="icon error" /> <span>{errorMessage}</span>
+          <img className="size-[20px]" src={"/assets/icons/error.svg"} alt="icon error" /> <span>{errorMessage}</span>
         </div>
       )}
     </div>

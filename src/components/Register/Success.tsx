@@ -25,10 +25,10 @@ export const Success = () => {
   return (
     <div>
       <div className="mb-16 flex h-[80px] items-center rounded-full px-4 md:h-[128px] md:px-14">
-        <img src={"/company_icon.png"} alt="company logo" className="w-[102px] lg:w-auto" />
+        <img src={"/assets/icons/company_icon.png"} alt="company logo" className="w-[102px] lg:w-auto" />
       </div>
       <MaxWidthWrapper width={718} className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
-        <img src={"/success.svg"} alt="icon success" className="mx-auto mb-10 size-[80px]" />
+        <img src={"/assets/icons/success.svg"} alt="icon success" className="mx-auto mb-10 size-[80px]" />
         <div className="mb-16 text-center">
           <StyledText className="mb-4 text-highlight-green">Registration Form</StyledText>
           <h1 className="mb-6">Congratulations</h1>

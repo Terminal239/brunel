@@ -11,7 +11,7 @@ export const FAQ = () => {
           <p className="mb-8 flex-1 text-center text-[24px] font-semibold text-button md:text-[40px] lg:mb-10 lg:text-[48px] xl:mb-0 xl:text-left xl:text-[60px]">Ask Questions</p>
           <Accordion />
         </div>
-        <img className="absolute -right-24 -top-20 rotate-180 scale-[0.5] xl:-bottom-20" src={"/accordion-illustration.svg"} alt="an arrow facing north-east" />
+        <img className="absolute -right-24 -top-20 rotate-180 scale-[0.5] xl:-bottom-20" src={"/assets/icons/accordion-illustration.svg"} alt="an arrow facing north-east" />
       </MaxWidthWrapper>
     </section>
   );

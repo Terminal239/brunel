@@ -10,7 +10,7 @@ const HeroText = () => {
         <div className="carousel-item"></div>
       </div>
       <Button type="primary" className="mx-auto flex items-center gap-4 xl:mx-0">
-        Explore More <img src={"/right-arrow.svg"} alt="icon right arrow" />
+        Explore More <img src={"/assets/icons/right-arrow.svg"} alt="icon right arrow" />
       </Button>
     </div>
   );

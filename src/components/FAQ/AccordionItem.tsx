@@ -12,7 +12,7 @@ const AccordionItem: React.FC<Props> = ({ item, index }) => {
   return (
     <div className="w-full border-b border-accordion-item-border pb-6">
       <button className="flex w-full items-center justify-between gap-4 p-0 md:gap-16 xl:gap-36" onClick={() => setExpandElement((prev) => !prev)} aria-expanded={expandElement} aria-controls={"panel" + index}>
-        <span className="text-left text-base font-semibold text-button md:text-[18px] lg:text-[20px]">{question}</span> <img src={expandElement ? "/minus-icon.svg" : "/plus-icon.svg"} alt="plus icon" />
+        <span className="text-left text-base font-semibold text-button md:text-[18px] lg:text-[20px]">{question}</span> <img src={expandElement ? "/assets/icons/minus-icon.svg" : "/assets/icons/plus-icon.svg"} alt="plus icon" />
       </button>
       {expandElement && (
         <div id={"panel" + index} className="mt-6" role="region">

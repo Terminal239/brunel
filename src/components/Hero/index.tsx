@@ -17,7 +17,7 @@ export const Hero = () => {
           <HeroIllustration />
           <HeroText />
         </div>
-        <img className="absolute  -right-8 top-1/3 -z-10 w-[256px] md:top-1/4 md:w-auto lg:bottom-56" src={"/hero-vertor-illustration.svg"} alt="background-image" />
+        <img className="absolute  -right-8 top-1/3 -z-10 w-[256px] md:top-1/4 md:w-auto lg:bottom-56" src={"/assets/icons/hero-vertor-illustration.svg"} alt="background-image" />
       </MaxWidthWrapper>
     </section>
   );
