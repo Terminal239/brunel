@@ -8,7 +8,7 @@ const Form = () => {
   const { data: name, element: NameInput } = useInput({ name: "name", placeholder: "Enter your name", type: "text" });
   const { data: email, element: EmailInput, showError: emailError } = useInput({ name: "email", placeholder: "Enter your email", type: "email", errorMessage: "Enter a valid email address" });
 
-  const handleSubmit = (name: string, email: string) => {
+  const handleSubmit = (email: string) => {
     const flags = "gm";
     const pattern = "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+.[A-Za-z]{2,}";
     const regexPattern = new RegExp(pattern, flags);
@@ -27,7 +27,7 @@ const Form = () => {
         {NameInput}
         {EmailInput}
       </form>
-      <Button disabled={name.length == 0 || email.length == 0} onClick={() => handleSubmit(name, email)} type="primary">
+      <Button disabled={name.length == 0 || email.length == 0} onClick={() => handleSubmit(email)} type="primary">
         Submit
       </Button>
     </MaxWidthWrapper>
