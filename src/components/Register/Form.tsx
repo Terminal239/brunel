@@ -9,8 +9,6 @@ const Form = () => {
   const { data: email, element: EmailInput, showError: emailError } = useInput({ name: "email", placeholder: "Enter your email", type: "email", errorMessage: "Enter a valid email address" });
 
   const handleSubmit = (name: string, email: string) => {
-    console.log(name, email);
-
     const flags = "gm";
     const pattern = "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+.[A-Za-z]{2,}";
     const regexPattern = new RegExp(pattern, flags);
