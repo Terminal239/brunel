@@ -11,7 +11,7 @@ This project is built using the following technologies:
 
 ## Live Demo
 
-[Live Site URL](https://web.whatsapp.com/)
+[Live Site URL](https://brunel-website.netlify.app/)
 
 ## Prerequisites:
 
